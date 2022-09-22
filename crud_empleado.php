@@ -23,13 +23,13 @@
           $sql = "";
         }
         if( isset($_POST['btn_eliminar'])  ){
-          $sql = "";
+          $sql = "delete from estudiantes where id_estudiantes = ".$txt_id.";";
         }
          
           if ($db_conexion->query($sql)===true){
             $db_conexion->close();
            
-            header('Location: /empresa_2022');
+            header('Location: /parcial_2');
             //header('Location: index.php');
            
           }else{

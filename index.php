@@ -54,7 +54,7 @@
             <div class="col">
             <div class="mb-3">
                 <label for="lbl_id" class="form-label"><b>ID Estudiantes</b></label>
-                <input type="text" name="txt_id" id="txt_id" class="form-control"  readonly>
+                <input type="text" name="txt_id" id="txt_id" class="form-control" value="0" readonly>
               </div>
               <div class="mb-3">
                 <label for="lbl_codigo" class="form-label"><b>carnet</b></label>
@@ -80,7 +80,7 @@
               <div>
               <div class="mb-3">
                 <label for="lbl_correo_electronico" class="form-label"><b>email</b></label>
-                <input type="text" name="txt_email" id="txt_email" class="form-control" placeholder="correo: tuemail@gmail.com" required>
+                <input type="text" name="txt_email" id="txt_email" class="form-control" placeholder="email: tuemail@gmail.com" required>
               </div>
               </div>
               <div class="mb-3">
@@ -90,7 +90,7 @@
               <div class="mb-3">
                 <label for="lbl_puesto" class="form-label"><b>genero</b></label>
                 <select class="form-select" name="drop_genero" id="drop_genero">  
-                  <option value=2> genero </option>
+                  <option value=2> eliga genero </option>
                   <option value=0>Masculino</option>
                   <option value=1>Femenino</option>
                 </select>
